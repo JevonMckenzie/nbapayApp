@@ -12,6 +12,13 @@ body {
 	font-size: 12pt;
 	font-weight: 400;
 	color: #000000;
+
+}
+#bodybg{
+	background-image: url("images/body.jpg") no-repeat;
+}
+#foott{
+	text-align:center;
 }
 #foot{
 
@@ -73,7 +80,10 @@ table.center {
 }
 
 section {
-	background: url(images/background.png);
+	background:  url("images/body.jpg");
+	background-repeat:no-repeat;
+
+   background-size:cover;
 }
 
 div.flash {
@@ -140,6 +150,20 @@ div.flash {
 	margin-bottom: 3em;
 }
 
+.heading{
+    color:red;
+    text-align:center;
+    padding:1px;
+		font-size:28px;
+		font-type:Geneva;
+		margin-left:px;
+}
+.objectives{
+	color:white;
+	text-align:center;
+
+
+}
 .title h2
 {
 	font-size: 2.8em;
@@ -161,7 +185,16 @@ div.flash {
 		overflow: hidden;
 		padding: 5em 0em;
 		color: rgba(0,0,0,0.5);
+
+
 	}
+.links{
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: 0;
+	color: #FFF;
+	text-align: center;
+}
 
 
 /*********************************************************************************/
@@ -181,13 +214,19 @@ form .submit{
 	width:100px;
 }
 
+.p{
+	font-size: 15px;
+	color:black;
+
+}
 .footer {
+
 	overflow: hidden;
-	padding: 5em 0em;
-	background: url(images/footer.jpg) center;
-	border-top: 1px solid rgba(255,255,255,0.08);
-	text-align: center;
-	color: green;
+
+	background:  url("images/bodybg1.jpg");
+	background-repeat:no-repeat;
+
+	background-size:cover;
 
 }
 .textbox {

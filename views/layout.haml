@@ -7,8 +7,8 @@
   %body
     %header
       = haml :nav
-    %section
+    %section{:style => "min-height: 450px;" ,:background => "body.jpg"}
       = styled_flash
       = yield
-    .footer
-      = haml :footer
+  .footer
+    = haml :footer
