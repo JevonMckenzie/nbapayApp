@@ -39,6 +39,14 @@ class TeamPay < Sinatra::Base
     haml :home
   end
 
+  get '/develop' do
+    haml :develop
+  end
+
+  get '/aboutsoa' do
+    haml :aboutsoa
+  end
+
   get '/salary' do
     @teamname = params[:teamname]
     if @teamname
